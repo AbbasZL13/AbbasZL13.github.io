@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+header,
+footer {
+  background-color: orange;
+}  
+
+.site-title {
+  color: turquoise
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px orange;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(255, 175, 78);  /* pick any colour you like */
+}
+
+nav ul {
+  list-style-type: none;    
+  padding: 0;               
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;   
+  background-color: turquoise;   
+  border: 1px solid orange;      
+  padding: 5px 10px;            
+  display: inline-block;      
+}
+nav a:hover,
+nav a:focus {
+  background-color: purple;
+}
