@@ -1,5 +1,5 @@
 html{
-  background: url("../images/back1.png") center/cover no-repeat fixed;
+ background-image: url("images/back1.png"); center/cover no-repeat fixed;
 }
 
 body{
@@ -86,9 +86,7 @@ nav a:hover {
   width: 110%;
   height: 200px;   /* adjust height to what looks good */
   object-fit: cover; /* no stretching, no squish */
-  border-radius: 8px; 
-  float:left
-
+  border-radius: 8px;
 }
 
 
