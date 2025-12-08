@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="css/main.css">
     <title>Three Star Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header">
+   <header class="site-header">
+  <div class="logo-home-wrap">
+  <img src="images/logo.png" alt="Three Star Media Logo" class="logo">
+  <a href="#">Home</a>
+</div>
 
-    <!-- logo box -->
-    <div class="logo-area">
-        <img src="images/logo.png" alt="Three Star Media Logo">
-    </div>
+<nav class="main-nav">
+  <ul>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <!-- nav menu -->
-    <nav class="main-nav">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+
 
     <!-- search bar -->
     <form class="search-bar">
@@ -45,14 +47,16 @@
     </section>
 </main>
 
-><section>
-    <div>
-       <img src="images/about-us.jpg" alt="Office with ping pong table">
+><section id="about" class="about-section">
+    <img src="images/about-us.jpg" alt="Office with ping pong table">
+
+    <div class="about-text">
         <h2>About us</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum perspiciatis dolorem impedit reiciendis, beatae iure, nobis eum nemo ab odio architecto perferendis sed alias, quidem blanditiis excepturi quam adipisci modi!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus impedit laudantium aliquam mollitia enim ullam numquam voluptatibus, facere consectetur incidunt commodi eos molestias et at tempora expedita deleniti porro?</p>
     </div>
 </section>
+
 
 <section id="services" class="our-services">
   <div class="container">
@@ -172,8 +176,8 @@
     </div>
     </section>
     <section class="hours" id="hours">
-  <div class="container">
-    <h2>Hours of operation</h2>
+     <div class="container">
+    <h3>Hours of operation</h3>
     <table>
       <thead>
         <tr>
@@ -197,11 +201,15 @@
 
 <section class="location" id="location">
   <div class="container">
-    <h2>Location</h2>
+    <h3>Location</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d450.4230881099588!2d35.31615624044535!3d33.30017138355101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151e8f4f8211dc63%3A0xa46c0ffe93acc13e!2sDeir%20Qanoun%20En%20Nahr%2C%20Lebanon!5e1!3m2!1sen!2sca!4v1764617974698!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </section>
-<footer>@Three star Media 2025</footer>
+<footer>
+  <div class="container">
+    <p>@Three Star Media, 2025</p>
+  </div>
+</footer>
     
 </body>
 </html>
